@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SUPER MARIO BROS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no, shrink-to-fit=no">
+    <meta name="theme-color" content="#404040">
+    <meta charset="utf-8">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://harajoone.com/icon/192.png">
+
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+<div class="world current-world world-1-1" data-width="1405">
+    <div class="collide p-fixed h-full w-1 right-full"></div>
+    <div class="collide p-absolute left-189 bottom-2 h-8 w-1.15 right-full"></div>
+
+    <div class="collide p-absolute  left-152 bottom-2 h-4 w-1.15 right-full"></div>
+    <div class="collide p-absolute  left-155 -ml-0.15 bottom-2 h-4 w-1.15 right-full"></div>
+
+    <div class="collide p-absolute  left-140 -ml-0.15 bottom-2 h-4 w-1.15 right-full"></div>
+
+    <div class="field"></div>
+
+    <div class="bush"></div>
+    <div class="bush left-48"></div>
+    <div class="bush left-96"></div>
+    <div class="bush left-144"></div>
+    <div class="bush left-192"></div>
+
+    <div class="bush-small left-16"></div>
+    <div class="bush-small left-64"></div>
+    <div class="bush-small left-112"></div>
+    <div class="bush-small left-160"></div>
+
+    <div class="cloud left-8.5 cloud-down"></div>
+    <div class="cloud left-19.5 cloud-up"></div>
+    <div class="cloud left-56.5 cloud-down"></div>
+    <div class="cloud left-67.5 cloud-up"></div>
+    <div class="cloud left-104.5 cloud-down"></div>
+    <div class="cloud left-115.5 cloud-up"></div>
+    <div class="cloud left-152.5 cloud-up"></div>
+    <div class="cloud left-201.5 cloud-down"></div>
+
+    <div class="cloud-med cloud-up left-37.5"></div>
+    <div class="cloud-med cloud-up left-84.5"></div>
+
+    <div class="cloud-large left-27.5 cloud-down"></div>
+    <div class="cloud-large left-75.5 cloud-down"></div>
+    <div class="cloud-large left-123.5 cloud-down"></div>
+
+    <div class="bush-cloud left-22.5"></div>
+    <div class="bush-cloud left-71.5"></div>
+    <div class="bush-cloud left-119.5"></div>
+    <div class="bush-cloud left-157.5"></div>
+    <div class="bush-cloud left-167.5"></div>
+
+    <div class="bush-cloud-med left-41.5"></div>
+    <div class="bush-cloud-med left-89.5"></div>
+    <div class="bush-cloud-med left-137.5"></div>
+
+    <div class="bush-cloud-large left-11.5"></div>
+    <div class="bush-cloud-large left-59.5"></div>
+    <div class="bush-cloud-large left-107.5"></div>
+
+
+    <div class="block block-r1 left-20"></div>
+    <div class="block block-r1 left-22"></div>
+    <div class="block block-r1 left-24"></div>
+
+    <div class="block block-r1 left-77"></div>
+    <div class="block block-r1 left-79"></div>
+
+    <div class="block block-r2 left-80"></div>
+    <div class="block block-r2 left-81"></div>
+    <div class="block block-r2 left-82"></div>
+    <div class="block block-r2 left-83"></div>
+    <div class="block block-r2 left-84"></div>
+    <div class="block block-r2 left-85"></div>
+    <div class="block block-r2 left-86"></div>
+    <div class="block block-r2 left-87"></div>
+
+    <div class="block block-r2 left-91"></div>
+    <div class="block block-r2 left-92"></div>
+    <div class="block block-r2 left-93"></div>
+
+    <div class="block block-r1 left-94" data-coin="8"></div> <!-- todo coin box -->
+    <div class="block block-r1 left-100"></div> <!-- todo shield -->
+    <div class="block block-r1 left-101"></div>
+
+    <div class="block block-r1 left-118"></div>
+    <div class="block block-r2 left-121 z-3"></div>
+    <div class="block block-r2 left-122 z2"></div>
+    <div class="block block-r2 left-123 z-1"></div>
+
+    <div class="block block-r2 left-128"></div>
+    <div class="block block-r2 left-131"></div>
+    <div class="block block-r1 left-129"></div>
+    <div class="block block-r1 left-130"></div>
+
+    <div class="block block-r1 left-168"></div>
+    <div class="block block-r1 left-169"></div>
+    <div class="block block-r1 left-171"></div>
+
+
+    <div class="block-ques block-r1 left-16" data-coin="1"></div>
+    <div class="block-ques block-r1 left-21"></div><!-- todo has upgrade -->
+    <div class="block-ques block-r1 left-23" data-coin="1"></div>
+    <div class="block-ques block-r2 left-22" data-coin="1"></div>
+    <div class="block-ques block-r1 left-78"></div> <!-- todo has upgrade -->
+    <div class="block-ques block-r2 left-94" data-coin="1"></div>
+
+    <div class="block-ques block-r1 left-106" data-coin="1"></div>
+    <div class="block-ques block-r1 left-109" data-coin="1"></div>
+    <div class="block-ques block-r1 left-112" data-coin="1"></div>
+    <div class="block-ques block-r2 left-109"></div><!-- todo has upgrade -->
+
+    <div class="block-ques block-r2 left-129" data-coin="1"></div>
+    <div class="block-ques block-r2 left-130" data-coin="1"></div>
+
+    <div class="block-ques block-r1 left-170" data-coin="1"></div>
+
+
+    <div class="block-hard bottom-2 left-134"></div>
+    <div class="block-hard bottom-2 left-135"></div>
+    <div class="block-hard bottom-2 left-136"></div>
+    <div class="block-hard bottom-2 left-137"></div>
+    <div class="block-hard bottom-3 left-135"></div>
+    <div class="block-hard bottom-3 left-136"></div>
+    <div class="block-hard bottom-3 left-137"></div>
+    <div class="block-hard bottom-4 left-136"></div>
+    <div class="block-hard bottom-4 left-137"></div>
+    <div class="block-hard bottom-5 left-137"></div>
+
+    <div class="block-hard bottom-2 left-140"></div>
+    <div class="block-hard bottom-2 left-141"></div>
+    <div class="block-hard bottom-2 left-142"></div>
+    <div class="block-hard bottom-2 left-143"></div>
+    <div class="block-hard bottom-3 left-140"></div>
+    <div class="block-hard bottom-3 left-141"></div>
+    <div class="block-hard bottom-3 left-142"></div>
+    <div class="block-hard bottom-4 left-140"></div>
+    <div class="block-hard bottom-4 left-141"></div>
+    <div class="block-hard bottom-5 left-140"></div>
+
+
+    <div class="block-hard bottom-2 left-148"></div>
+    <div class="block-hard bottom-2 left-149"></div>
+    <div class="block-hard bottom-2 left-150"></div>
+    <div class="block-hard bottom-2 left-151"></div>
+    <div class="block-hard bottom-2 left-152"></div>
+    <div class="block-hard bottom-3 left-149"></div>
+    <div class="block-hard bottom-3 left-150"></div>
+    <div class="block-hard bottom-3 left-151"></div>
+    <div class="block-hard bottom-3 left-152"></div>
+    <div class="block-hard bottom-4 left-150"></div>
+    <div class="block-hard bottom-4 left-151"></div>
+    <div class="block-hard bottom-4 left-152"></div>
+    <div class="block-hard bottom-5 left-151"></div>
+    <div class="block-hard bottom-5 left-152"></div>
+
+    <div class="block-hard bottom-2 left-155"></div>
+    <div class="block-hard bottom-2 left-156"></div>
+    <div class="block-hard bottom-2 left-157"></div>
+    <div class="block-hard bottom-2 left-158"></div>
+    <div class="block-hard bottom-3 left-155"></div>
+    <div class="block-hard bottom-3 left-156"></div>
+    <div class="block-hard bottom-3 left-157"></div>
+    <div class="block-hard bottom-4 left-155"></div>
+    <div class="block-hard bottom-4 left-156"></div>
+    <div class="block-hard bottom-5 left-155"></div>
+
+
+    <div class="block-hard bottom-2 left-181"></div>
+    <div class="block-hard bottom-2 left-182"></div>
+    <div class="block-hard bottom-2 left-183"></div>
+    <div class="block-hard bottom-2 left-184"></div>
+    <div class="block-hard bottom-2 left-185"></div>
+    <div class="block-hard bottom-2 left-186"></div>
+    <div class="block-hard bottom-2 left-187"></div>
+    <div class="block-hard bottom-2 left-188"></div>
+    <div class="block-hard bottom-2 left-189"></div>
+
+    <div class="block-hard bottom-3 left-182"></div>
+    <div class="block-hard bottom-3 left-183"></div>
+    <div class="block-hard bottom-3 left-184"></div>
+    <div class="block-hard bottom-3 left-185"></div>
+    <div class="block-hard bottom-3 left-186"></div>
+    <div class="block-hard bottom-3 left-187"></div>
+    <div class="block-hard bottom-3 left-188"></div>
+    <div class="block-hard bottom-3 left-189"></div>
+
+    <div class="block-hard bottom-4 left-183"></div>
+    <div class="block-hard bottom-4 left-184"></div>
+    <div class="block-hard bottom-4 left-185"></div>
+    <div class="block-hard bottom-4 left-186"></div>
+    <div class="block-hard bottom-4 left-187"></div>
+    <div class="block-hard bottom-4 left-188"></div>
+    <div class="block-hard bottom-4 left-189"></div>
+
+    <div class="block-hard bottom-5 left-184"></div>
+    <div class="block-hard bottom-5 left-185"></div>
+    <div class="block-hard bottom-5 left-186"></div>
+    <div class="block-hard bottom-5 left-187"></div>
+    <div class="block-hard bottom-5 left-188"></div>
+    <div class="block-hard bottom-5 left-189"></div>
+
+    <div class="block-hard bottom-6 left-185"></div>
+    <div class="block-hard bottom-6 left-186"></div>
+    <div class="block-hard bottom-6 left-187"></div>
+    <div class="block-hard bottom-6 left-188"></div>
+    <div class="block-hard bottom-6 left-189"></div>
+
+    <div class="block-hard bottom-7 left-186"></div>
+    <div class="block-hard bottom-7 left-187"></div>
+    <div class="block-hard bottom-7 left-188"></div>
+    <div class="block-hard bottom-7 left-189"></div>
+
+    <div class="block-hard bottom-8 left-187"></div>
+    <div class="block-hard bottom-8 left-188"></div>
+    <div class="block-hard bottom-8 left-189"></div>
+
+    <div class="block-hard bottom-9 left-188"></div>
+    <div class="block-hard bottom-9 left-189"></div>
+
+    <div class="block-hard bottom-2 left-199"></div>
+
+    <div class="pipe pipe-small left-28"></div>
+    <div class="pipe pipe-med left-38"></div>
+    <div class="pipe pipe-large left-46"></div>
+    <div class="pipe pipe-large left-57"></div> <!-- todo has hole -->
+    <div class="pipe pipe-small left-163"></div>
+    <div class="pipe pipe-small left-179"></div>
+
+
+    <div class="hole w-2 left-69"></div>
+    <div class="hole w-3 left-86"></div>
+    <div class="hole w-2 left-153"></div>
+
+
+    <div class="flag-pole left-199.5"></div>
+    <div class="flag-head left-199.5 bottom-12"></div>
+    <div class="flag left-198.5 bottom-11"></div>
+
+    <div class="castle left-203 bottom-2"></div>
+
+
+    <div class="enemy goomba left-26"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-25"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-42"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-55"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-56.2"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-85"
+         data-direction="left"
+         data-walking="true"
+         data-positiony="66.8"
+    ></div>
+    <div class="enemy goomba left-86.5"
+         data-direction="left"
+         data-walking="true"
+         data-positiony="66.8"
+    ></div>
+    <div class="enemy goomba left-100"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-101.5"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-117"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-118.5"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-128"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-129.5"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-132"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-133.5"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-176"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+    <div class="enemy goomba left-177.5"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+
+    <div class="enemy koopa left-110"
+         data-direction="left"
+         data-walking="true"
+    ></div>
+
+    <div class="character mario big"></div>
+
+    <div class="enableHWAC"></div>
+</div>
+<video src="video.mp4" class="p-absolute top-0 left-0 w-1 h-1 -z-1" controls></video>
+
+<div class="ui p-fixed top-0 h-full w-full z-99999 left-0 right-0 text-(3vh) text-white">
+    <div class="d-flex j-content-evenly a-items-center w-full p-absolute top-0 pa-0.5">
+        <div class="">
+            <div>MARIO</div>
+            <div class="score">000000</div>
+        </div>
+        <div class="d-flex a-items-center gap-0.1">
+            <div class="coin-ui"></div>
+            <div class="pl-0.05">x</div>
+            <div class="coins">00</div>
+        </div>
+        <div class="text-center">
+            <div>WORLD</div>
+            <div>1-1</div>
+        </div>
+        <div class="text-right">
+            <div>TIME</div>
+            <div class="time">400</div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="l-controls">
+            <div class="ctrl c-left"></div>
+            <div class="ud">
+                <div class="ctrl c-top"></div>
+                <div class="ctrl c-bottom"></div>
+            </div>
+            <div class="ctrl c-right"></div>
+        </div>
+        <div class="r-controls" children="">
+            <div class="c-a"></div>
+            <div class="c-b"></div>
+            <div class="c-c"></div>
+            <div class="c-d"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/assets/js/sw.js')
+                    .then((registration) => {
+                        console.log('ServiceWorker registered:', registration);
+                    })
+                    .catch((error) => {
+                        console.log('ServiceWorker registration failed:', error);
+                    });
+        });
+    }
+</script>
+<script src="assets/js/scripts.js" ></script>
+
+</body>
+</html>
