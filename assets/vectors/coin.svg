@@ -1,0 +1,18 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <style>
+        .s0{fill:#e75f13}.s1{fill:#ffa347}.s2{fill:#000}
+    </style>
+    <path id="Layer" class="s0" d="M3 4h10v8H3z">
+        <animate attributeName="fill" values="#ffa347; #e75f13; #8b1700; #ffa347" dur="1s" repeatCount="indefinite"></animate>
+    </path>
+    <path id="Layer" class="s0" d="M4 2h8v12H4z">
+        <animate attributeName="fill" values="#ffa347; #e75f13; #8b1700; #ffa347" dur="1s" repeatCount="indefinite"></animate>
+    </path>
+    <path id="Layer" class="s0" d="M5 1h6v14H5z">
+        <animate attributeName="fill" values="#ffa347; #e75f13; #8b1700; #ffa347" dur="1s" repeatCount="indefinite"></animate>
+    </path>
+    <path id="Layer" class="s1" d="M6 3h2v1H6zM5 4h1v8H5z"/>
+    <path id="Layer" class="s2" d="M8 4h1v8H8zM6 12h2v1H6zM9 14h2v1H9zM10 12h2v2h-2zM11 4h2v8h-2zM9 1h2v1H9z"/>
+    <path id="Layer" class="s2" d="M10 1h1v3h-1z"/>
+    <path id="Layer" class="s2" d="M10 2h2v2h-2z"/>
+</svg>

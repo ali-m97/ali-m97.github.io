@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: 'Fami';
+    src: url('../fnt/FamiSansBoldShavian.woff2') format('woff2'),
+    url('../fnt/FamiSansBoldShavian.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: block;
+}

@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <style>
+        .a { fill: #c84c0c; }
+    </style>
+    <path class="a" d="M1 0h14v1H1zM0 1h1v14H0z"/>
+    <path d="M0 15h16v1H0zM15 1h1v14h-1z"/>
+    <!-- Animate the color change -->
+    <path d="M1 1h14v14H1">
+        <animate attributeName="fill" values="#fc9838;#c84c0c;#7c0800;#fc9838" dur="1s" repeatCount="indefinite" />
+    </path>
+    <path d="M2 2h1v1H2zM13 2h1v1h-1zM13 13h1v1h-1zM2 13h1v1H2zM8 12h2v2H8zM8 8h2v3H8z"/>
+    <path d="M9 5h3v4H9zM6 4h4v1H6z"/>
+    <path d="M5 4h2v4H5z"/>
+    <path class="a" d="M7 11h2v2H7zM7 8h2v2H7zM8 7h3v1H8z"/>
+    <path class="a" d="M9 4h2v4H9zM5 3h5v1H5zM4 4h2v3H4z"/>
+</svg>

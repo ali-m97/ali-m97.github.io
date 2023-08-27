@@ -1,0 +1,1607 @@
+:root {
+    --m-color-body: 223, 225, 238;
+    --m-color-body-l-1: 231, 233, 246;
+    --m-color-body-d-1: 218, 221, 235;
+    --m-color-body-l-2: 246, 248, 255;
+    --m-color-body-d-2: 211, 213, 231;
+    --m-color-body-l-3: 255, 255, 255;
+    --m-color-body-d-3: 199, 202, 225;
+    --m-color-body-l-4: 255, 255, 255;
+    --m-color-body-d-4: 183, 187, 216;
+    --m-color-body-l-5: 255, 255, 255;
+    --m-color-body-d-5: 163, 168, 206;
+    --m-color-invert: 41, 45, 50;
+    --m-color-invert-l-1: 49, 53, 58;
+    --m-color-invert-d-1: 38, 41, 46;
+    --m-color-invert-l-2: 64, 68, 73;
+    --m-color-invert-d-2: 32, 35, 39;
+    --m-color-invert-l-3: 87, 91, 96;
+    --m-color-invert-d-3: 24, 26, 29;
+    --m-color-invert-l-4: 118, 122, 127;
+    --m-color-invert-d-4: 13, 14, 16;
+    --m-color-invert-l-5: 156, 160, 165;
+    --m-color-invert-d-5: 0, 0, 0;
+    --m-color-invertlight: 175, 180, 197;
+    --m-color-invertlight-l-1: 183, 188, 205;
+    --m-color-invertlight-d-1: 171, 176, 194;
+    --m-color-invertlight-l-2: 198, 203, 220;
+    --m-color-invertlight-d-2: 164, 169, 189;
+    --m-color-invertlight-l-3: 221, 226, 243;
+    --m-color-invertlight-d-3: 153, 160, 181;
+    --m-color-invertlight-l-4: 252, 255, 255;
+    --m-color-invertlight-d-4: 139, 146, 171;
+    --m-color-invertlight-l-5: 255, 255, 255;
+    --m-color-invertlight-d-5: 121, 130, 158;
+    --m-color-red: 214, 40, 40;
+    --m-color-red-l-1: 222, 48, 48;
+    --m-color-red-d-1: 208, 39, 39;
+    --m-color-red-l-2: 237, 63, 63;
+    --m-color-red-d-2: 198, 37, 37;
+    --m-color-red-l-3: 255, 86, 86;
+    --m-color-red-d-3: 183, 34, 34;
+    --m-color-red-l-4: 255, 117, 117;
+    --m-color-red-d-4: 162, 30, 30;
+    --m-color-red-l-5: 255, 155, 155;
+    --m-color-red-d-5: 136, 25, 25;
+    --m-color-yellow: 252, 191, 73;
+    --m-color-yellow-l-1: 255, 199, 81;
+    --m-color-yellow-d-1: 251, 188, 66;
+    --m-color-yellow-l-2: 255, 214, 96;
+    --m-color-yellow-d-2: 251, 184, 54;
+    --m-color-yellow-l-3: 255, 237, 119;
+    --m-color-yellow-d-3: 251, 178, 36;
+    --m-color-yellow-l-4: 255, 255, 150;
+    --m-color-yellow-d-4: 250, 169, 12;
+    --m-color-yellow-l-5: 255, 255, 188;
+    --m-color-yellow-d-5: 229, 152, 3;
+    --m-color-greenlight: 127, 198, 106;
+    --m-color-greenlight-l-1: 135, 206, 114;
+    --m-color-greenlight-d-1: 123, 196, 101;
+    --m-color-greenlight-l-2: 150, 221, 129;
+    --m-color-greenlight-d-2: 115, 192, 92;
+    --m-color-greenlight-l-3: 173, 244, 152;
+    --m-color-greenlight-d-3: 104, 187, 79;
+    --m-color-greenlight-l-4: 204, 255, 183;
+    --m-color-greenlight-d-4: 91, 175, 67;
+    --m-color-greenlight-l-5: 242, 255, 221;
+    --m-color-greenlight-d-5: 80, 153, 58;
+    --m-color-green: 77, 168, 116;
+    --m-color-green-l-1: 85, 176, 124;
+    --m-color-green-d-1: 75, 163, 113;
+    --m-color-green-l-2: 100, 191, 139;
+    --m-color-green-d-2: 71, 155, 107;
+    --m-color-green-l-3: 123, 214, 162;
+    --m-color-green-d-3: 65, 142, 98;
+    --m-color-green-l-4: 154, 245, 193;
+    --m-color-green-d-4: 57, 125, 87;
+    --m-color-green-l-5: 192, 255, 231;
+    --m-color-green-d-5: 48, 104, 72;
+    --m-color-blue: 44, 53, 95;
+    --m-color-blue-l-1: 52, 61, 103;
+    --m-color-blue-d-1: 42, 50, 90;
+    --m-color-blue-l-2: 67, 76, 118;
+    --m-color-blue-d-2: 38, 45, 82;
+    --m-color-blue-l-3: 90, 99, 141;
+    --m-color-blue-d-3: 32, 38, 69;
+    --m-color-blue-l-4: 121, 130, 172;
+    --m-color-blue-d-4: 24, 29, 53;
+    --m-color-blue-l-5: 159, 168, 210;
+    --m-color-blue-d-5: 14, 17, 32;
+    --m-color-cyan: 40, 168, 178;
+    --m-color-cyan-l-1: 48, 176, 186;
+    --m-color-cyan-d-1: 38, 163, 172;
+    --m-color-cyan-l-2: 63, 191, 201;
+    --m-color-cyan-d-2: 36, 153, 162;
+    --m-color-cyan-l-3: 86, 214, 224;
+    --m-color-cyan-d-3: 33, 139, 147;
+    --m-color-cyan-l-4: 117, 245, 255;
+    --m-color-cyan-d-4: 28, 120, 127;
+    --m-color-cyan-l-5: 155, 255, 255;
+    --m-color-cyan-d-5: 23, 97, 103;
+    --m-color-stroke: 175, 180, 197;
+    --m-color-stroke-l-1: 183, 188, 205;
+    --m-color-stroke-d-1: 171, 176, 194;
+    --m-color-stroke-l-2: 198, 203, 220;
+    --m-color-stroke-d-2: 164, 169, 189;
+    --m-color-stroke-l-3: 221, 226, 243;
+    --m-color-stroke-d-3: 153, 160, 181;
+    --m-color-stroke-l-4: 252, 255, 255;
+    --m-color-stroke-d-4: 139, 146, 171;
+    --m-color-stroke-l-5: 255, 255, 255;
+    --m-color-stroke-d-5: 121, 130, 158;
+    --m-color-black: 0, 0, 0;
+    --m-color-black-l-1: 8, 8, 8;
+    --m-color-black-d-1: 0, 0, 0;
+    --m-color-black-l-2: 23, 23, 23;
+    --m-color-black-d-2: 0, 0, 0;
+    --m-color-black-l-3: 46, 46, 46;
+    --m-color-black-d-3: 0, 0, 0;
+    --m-color-black-l-4: 77, 77, 77;
+    --m-color-black-d-4: 0, 0, 0;
+    --m-color-black-l-5: 115, 115, 115;
+    --m-color-black-d-5: 0, 0, 0;
+    --m-color-border: 230, 231, 236;
+    --m-color-border-l-1: 238, 239, 244;
+    --m-color-border-d-1: 226, 227, 233;
+    --m-color-border-l-2: 253, 254, 255;
+    --m-color-border-d-2: 219, 220, 228;
+    --m-color-border-l-3: 255, 255, 255;
+    --m-color-border-d-3: 209, 210, 220;
+    --m-color-border-l-4: 255, 255, 255;
+    --m-color-border-d-4: 195, 197, 209;
+    --m-color-border-l-5: 255, 255, 255;
+    --m-color-border-d-5: 177, 180, 196;
+    --m-color-white: 255, 255, 255;
+    --m-color-white-l-1: 255, 255, 255;
+    --m-color-white-d-1: 251, 251, 251;
+    --m-color-white-l-2: 255, 255, 255;
+    --m-color-white-d-2: 245, 245, 245;
+    --m-color-white-l-3: 255, 255, 255;
+    --m-color-white-d-3: 236, 236, 236;
+    --m-color-white-l-4: 255, 255, 255;
+    --m-color-white-d-4: 224, 224, 224;
+    --m-color-white-l-5: 255, 255, 255;
+    --m-color-white-d-5: 209, 209, 209;
+    --m-color-primary: 127, 59, 204;
+    --m-color-primary-l-1: 135, 67, 212;
+    --m-color-primary-d-1: 123, 54, 202;
+    --m-color-primary-l-2: 150, 82, 227;
+    --m-color-primary-d-2: 117, 50, 194;
+    --m-color-primary-l-3: 173, 105, 250;
+    --m-color-primary-d-3: 108, 46, 179;
+    --m-color-primary-l-4: 204, 136, 255;
+    --m-color-primary-d-4: 97, 41, 160;
+    --m-color-primary-l-5: 242, 174, 255;
+    --m-color-primary-d-5: 82, 35, 135;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+*,*::before,*::after {
+    border: 0 solid #00000000;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section  {
+    display: block;
+}
+body {
+    --m-bg-alpha: 1;
+    --m-text-alpha: 1;
+    background-color: rgba(var(--m-color-body), var(--m-bg-alpha));
+    color: rgba(var(--m-color-invert), var(--m-text-alpha));
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    direction: ltr;
+}
+body, button, input, select, textarea {
+    font-family: Fami;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0.4rem 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-weight: 500;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.25rem;
+}
+h4 {
+    font-size: 1rem;
+}
+h5 {
+    font-size: .83rem;
+}
+h6 {
+    font-size: .67rem;
+}
+i {
+    vertical-align: middle !important;
+    user-select: none;
+}
+button, input, select, textarea {
+    margin: 0;
+}
+iframe {
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td, th {
+    padding: 0;
+}
+td:not([align]), th:not([align]) {
+    text-align: left;
+}
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 980px 
+    }
+    .container-fluid {
+         
+    }
+    
+}
+@media only screen and (min-width: 1180px) {
+    .container {
+        padding: 0;
+        max-width: 1140px 
+    }
+    .container-fluid {
+        padding: 0 
+    }
+    
+}
+@media only screen and (min-width: 1310px) {
+    .container {
+        max-width: 1250px 
+    }
+    .container-fluid {
+         
+    }
+    
+}
+@media only screen and (min-width: 1520px) {
+    .container {
+        max-width: 1480px 
+    }
+    .container-fluid {
+         
+    }
+    
+}
+@media only screen and (min-width: 1610px) {
+    .container {
+        max-width: 1570px 
+    }
+    .container-fluid {
+         
+    }
+    
+}
+body {
+    font-weight: 600;
+    transition-duration: 200ms;
+    -webkit-transition-duration: 200ms;
+    -o-transition-duration: 200ms
+}
+a {
+    color: inherit
+}
+::-webkit-scrollbar {
+    width: .35rem;
+    height: .35rem
+}
+@media only screen and (max-width: 991.98px)  {
+    ::-webkit-scrollbar {
+        width: 6.66667vh;
+        height: 6.66667vh
+    }
+}
+::-webkit-scrollbar {
+    width: .35rem;
+    height: .35rem
+}
+@media only screen and (max-width: 991.98px)  {
+    ::-webkit-scrollbar {
+        width: 6.66667vh;
+        height: 6.66667vh
+    }
+}
+::-webkit-scrollbar-track {
+    background: rgba(var(--m-color-body-d-3), 1)
+}
+@dark {
+    ::-webkit-scrollbar-track {
+        background: rgba(var(--m-color-body-l-3), 1)
+    }
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(var(--m-color-red), 1)
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(var(--m-color-red-l-2), 1)
+}
+@media only screen and (min-width: 1610px)  {
+    html {
+        font-size: 19px
+    }
+}
+@media only screen and (max-width: 1609.98px)  {
+    html {
+        font-size: 17.1px
+    }
+}
+@media only screen and (max-width: 1519.98px)  {
+    html {
+        font-size: 15.2px
+    }
+}
+@media only screen and (max-width: 1309.98px)  {
+    html {
+        font-size: 13.5px
+    }
+}
+@media only screen and (max-width: 1179.98px)  {
+    html {
+        font-size: 12px
+    }
+}
+@media only screen and (max-width: 991.98px)  {
+    html {
+        font-size: 15px
+    }
+}
+@media only screen and (max-width: 767.98px)  {
+    html {
+        font-size: 14.5px
+    }
+}
+@media only screen and (max-width: 575.98px)  {
+    html {
+        font-size: 16px
+    }
+}
+@media (max-width: 340px) {
+    html {
+        font-size: 13px
+    }
+}
+@media (max-width: 300px) {
+    html {
+        font-size: 11px
+    }
+}
+html,  body {
+    height: 100%;
+    direction: ltr;
+    overflow: hidden
+}
+canvas {
+    position: absolute;
+    top: 0;
+    z-index: -1
+}
+.world {
+    background: #5c94fc;
+    height: 100%;
+    position: relative;
+    color: #fff
+}
+.world .field {
+    width: 100%;
+    height: 13.33334vh;
+    background: url("../vectors/field.svg") repeat;
+    background-size: 6.66667vh;
+    position: absolute;
+    bottom: 0;
+    z-index: 1000
+}
+.world .bush {
+    background: url("../vectors/bush.svg") center bottom no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 33.333349999999996vh;
+    height: 14.583340625vh;
+    bottom: 13.33334vh
+}
+.world .bush-small {
+    width: 20.00001vh;
+    height: 7.916670625vh;
+    bottom: 13.33334vh;
+    background: url("../vectors/bush-small.svg") center bottom no-repeat;
+    background-size: contain;
+    position: absolute
+}
+.world .cloud {
+    width: 13.33334vh;
+    height: 10.000005vh;
+    background: url("../vectors/cloud.svg") center bottom no-repeat;
+    background-size: contain;
+    position: absolute
+}
+.world .cloud-med {
+    width: 20.00001vh;
+    height: 10.000005vh;
+    background: url("../vectors/cloud-med.svg") center bottom no-repeat;
+    background-size: contain;
+    position: absolute
+}
+.world .cloud-large {
+    width: 26.66668vh;
+    height: 10.000005vh;
+    background: url("../vectors/cloud-large.svg") center bottom no-repeat;
+    background-size: contain;
+    position: absolute
+}
+.world .cloud-up {
+    bottom: 80.00004vh
+}
+.world .cloud-down {
+    bottom: 73.33337vh
+}
+.world .bush-cloud {
+    width: 13.33334vh;
+    height: 10.000005vh;
+    bottom: 10.000005vh;
+    height: 10.5vh;
+    background: url("../vectors/bush-cloud.svg") center bottom no-repeat;
+    background-size: contain;
+    position: absolute
+}
+.world .bush-cloud-med {
+    width: 20.00001vh;
+    height: 10.000005vh;
+    bottom: 10.000005vh;
+    background: url("../vectors/bush-cloud-med.svg") center bottom no-repeat;
+    background-size: contain;
+    position: absolute
+}
+.world .bush-cloud-large {
+    width: 26.66668vh;
+    height: 10.000005vh;
+    bottom: 10.000005vh;
+    background: url("../vectors/bush-cloud-large.svg") center bottom no-repeat;
+    background-size: contain;
+    position: absolute
+}
+.world .block {
+    background: url("../vectors/block.svg") center bottom no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 6.7333367vh;
+    height: 6.66667vh;
+    z-index: 1
+}
+.world .block.destroying {
+    background: none;
+    display: flex;
+    flex-wrap: wrap
+}
+.world .block.destroying .break {
+    width: 3.333335vh;
+    height: 3.333335vh;
+    background: url("../vectors/block-break.svg") center center no-repeat;
+    background-size: 100% 100%
+}
+.world .block.destroying .break-1 {
+    animation-name: break-1;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+.world .block.destroying .break-2 {
+    animation-name: break-2;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+.world .block.destroying .break-3 {
+    animation-name: break-3;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+.world .block.destroying .break-4 {
+    animation-name: break-4;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+.world .block:before {
+    content: '';
+    width: 3.333335vh;
+    height: 6.66667vh;
+    margin-left: 1.6666675vh;
+    position: absolute;
+    background: url("../vectors/box-coin.svg");
+    background-size: auto 100%;
+    display: none
+}
+.world .block.coin-block-animation {
+    z-index: 10
+}
+.world .block.coin-block-animation:before {
+    animation-name: box-coin, box-coin2;
+    animation-duration: 0.1s, 0.3s;
+    animation-timing-function: step-start, linear;
+    animation-iteration-count: infinite, 1;
+    animation-fill-mode: forwards;
+    display: block
+}
+.world .block.block-empty {
+    background: url("../vectors/block-empty.svg");
+    background-size: 100% 100%
+}
+.world .block-ques {
+    background: url("../vectors/block-ques.svg") center bottom no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 6.7333367vh;
+    height: 6.66667vh;
+    z-index: 2
+}
+.world .block-ques:before {
+    content: '';
+    width: 3.333335vh;
+    height: 6.66667vh;
+    margin-left: 1.6666675vh;
+    position: absolute;
+    background: url("../vectors/box-coin.svg");
+    background-size: auto 100%;
+    display: none
+}
+.world .block-ques.coin-block-animation {
+    z-index: 10
+}
+.world .block-ques.coin-block-animation:before {
+    animation-name: box-coin, box-coin2;
+    animation-duration: 0.1s, 0.3s;
+    animation-timing-function: step-start, linear;
+    animation-iteration-count: infinite, 1;
+    animation-fill-mode: forwards;
+    display: block
+}
+.world .block-ques.block-empty {
+    background: url("../vectors/block-empty.svg");
+    background-size: 100% 100%
+}
+.world .block-hard {
+    background: url("../vectors/block-hard.svg") center bottom no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 6.7333367vh;
+    height: 6.66667vh;
+    z-index: 1
+}
+.world .block-r1 {
+    bottom: 33.333349999999996vh
+}
+.world .block-r2 {
+    bottom: 60.000029999999995vh
+}
+.world .pipe {
+    background: url("../vectors/pipe-head.svg") top center no-repeat, url("../vectors/pipe-body.svg") top center repeat-y;
+    background-size: contain;
+    position: absolute;
+    width: 13.33334vh;
+    bottom: 13.33334vh
+}
+.world .pipe-small {
+    height: 13.33334vh
+}
+.world .pipe-med {
+    height: 20.00001vh
+}
+.world .pipe-large {
+    height: 26.66668vh
+}
+.world .hole {
+    height: 14.000007vh;
+    bottom: 0;
+    background: #5c94fc;
+    position: absolute;
+    z-index: 1001
+}
+.world .flag-pole {
+    width: 0.83333375vh;
+    height: 60.000029999999995vh;
+    bottom: 20.00001vh;
+    background: #80d010;
+    position: absolute;
+    transform: translateX(-50%)
+}
+.world .flag-head {
+    width: 3.333335vh;
+    height: 3.333335vh;
+    background: url("../vectors/flag-head.svg") center bottom no-repeat;
+    background-size: contain;
+    position: absolute;
+    transform: translateX(-50%)
+}
+.world .flag {
+    width: 6.66667vh;
+    height: 6.66667vh;
+    background: url("../vectors/flag.svg") center bottom no-repeat;
+    background-size: contain;
+    position: absolute
+}
+.world .castle {
+    width: 33.333349999999996vh;
+    height: 33.333349999999996vh;
+    background: url("../vectors/castle.svg") center bottom no-repeat;
+    background-size: contain;
+    position: absolute
+}
+.world .character {
+    width: 6.3333365vh;
+    height: 6.66667vh;
+    bottom: 13.33334vh;
+    left: 20.00001vh;
+    position: absolute;
+    z-index: 1111
+}
+.world .mario {
+    background: url("../vectors/character-mario.svg");
+    background-size: auto 100%;
+    background-position: 0vh 0
+}
+.world .mario.jump {
+    background-position: -40.00002vh 0 !important
+}
+.world .mario.changing-side {
+    background-position: -13.33334vh 0 !important
+}
+.world .mario.big {
+    height: 13.33334vh;
+    background: url("../vectors/character-mario-big.svg");
+    background-size: auto 100%;
+    background-position: -10vh 0
+}
+.world .mario.big.jump {
+    background-position: -59.1667vh 0 !important
+}
+.world .mario.big.changing-side {
+    background-position: -20vh 0 !important
+}
+.world .walk {
+    animation-name: walk-small;
+    animation-duration: 0.25s;
+    animation-timing-function: step-start;
+    animation-iteration-count: infinite
+}
+.world .walk.big {
+    animation-name: walk-big;
+    animation-duration: 0.25s;
+    animation-timing-function: step-start;
+    animation-iteration-count: infinite
+}
+.world .walk.high-speed {
+    animation-duration: 0.14444s !important
+}
+.world .score-tooltip {
+    position: absolute;
+    width: 6.66667vh;
+    height: 6.66667vh;
+    text-align: center;
+    bottom: 20.00001vh;
+    left: 20.00001vh;
+    z-index: 10001;
+    font-size: 1.5vh;
+    animation-name: box-coin3;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    display: block
+}
+.world .hit-block-animation {
+    animation-name: hit-block;
+    animation-duration: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1
+}
+.world .coin {
+    width: 6.66667vh;
+    height: 6.66667vh;
+    background: url("../vectors/coin.svg") no-repeat;
+    background-size: contain;
+    background-position: 0vh 0;
+    position: absolute
+}
+.world .goomba {
+    width: 6.6000033vh;
+    height: 6.66667vh;
+    bottom: 13.33334vh;
+    background: url("../vectors/enemy-goomba.svg");
+    background-size: auto 100%;
+    background-position: 0vh 0;
+    position: absolute
+}
+.world .goomba.animate {
+    animation-name: goomba;
+    animation-duration: 0.4s;
+    animation-timing-function: step-start;
+    animation-iteration-count: infinite
+}
+.world .goomba.killed {
+    background-position: -17.083vh 0 !important
+}
+.world .koopa {
+    width: 6.6000033vh;
+    height: 9.583338125vh;
+    bottom: 13.33334vh;
+    background: url("../vectors/enemy-koopa.svg");
+    background-size: auto 100%;
+    background-position: -25vh 0;
+    position: absolute
+}
+.world .koopa.animate {
+    animation-name: koopa;
+    animation-duration: 0.4s;
+    animation-timing-function: step-start;
+    animation-iteration-count: infinite
+}
+.world .koopa.in-lack {
+    background-position: -61.6666vh 0;
+    animation-name: none
+}
+.world .koopa.killed {
+    background-position: -61.6666vh 0;
+    animation-name: none
+}
+.world .koopa.returning:not(.in-lack-running) {
+    animation-name: returning;
+    animation-duration: 0.4s;
+    animation-timing-function: step-start;
+    animation-iteration-count: infinite
+}
+@keyframes break-1 {
+    0% {
+        transform: translate(0,0)
+    }
+    10% {
+        transform: translate(-3vh,-6.6666vh)
+    }
+    20% {
+        transform: translate(-5vh,-13.3333vh)
+    }
+    30% {
+        transform: translate(-7vh,-20vh)
+    }
+    40% {
+        transform: translate(-10vh,-20vh)
+    }
+    50% {
+        transform: translate(-12vh,-13.3333vh)
+    }
+    70% {
+        transform: translate(-16vh,12vh)
+    }
+    100% {
+        transform: translate(-18vh,40vh)
+    }
+}
+@keyframes break-2 {
+    0% {
+        transform: translate(0,0)
+    }
+    10% {
+        transform: translate(3vh,-6.6666vh)
+    }
+    20% {
+        transform: translate(5vh,-13.3333vh)
+    }
+    30% {
+        transform: translate(7vh,-20vh)
+    }
+    40% {
+        transform: translate(10vh,-20vh)
+    }
+    50% {
+        transform: translate(12vh,-13.3333vh)
+    }
+    70% {
+        transform: translate(16vh,12vh)
+    }
+    100% {
+        transform: translate(18vh,40vh)
+    }
+}
+@keyframes break-3 {
+    0% {
+        transform: translate(0,0)
+    }
+    10% {
+        transform: translate(-3vh,-6vh)
+    }
+    20% {
+        transform: translate(-6vh,-12vh)
+    }
+    30% {
+        transform: translate(-8vh,-17vh)
+    }
+    40% {
+        transform: translate(-11vh,-17vh)
+    }
+    50% {
+        transform: translate(-14vh,-10vh)
+    }
+    70% {
+        transform: translate(-17vh,16vh)
+    }
+    100% {
+        transform: translate(-19vh,46vh)
+    }
+}
+@keyframes break-4 {
+    0% {
+        transform: translate(0,0)
+    }
+    10% {
+        transform: translate(3vh,-6vh)
+    }
+    20% {
+        transform: translate(6vh,-12vh)
+    }
+    30% {
+        transform: translate(8vh,-17vh)
+    }
+    40% {
+        transform: translate(11vh,-17vh)
+    }
+    50% {
+        transform: translate(14vh,-10vh)
+    }
+    70% {
+        transform: translate(17vh,16vh)
+    }
+    100% {
+        transform: translate(19vh,46vh)
+    }
+}
+@keyframes hit-block {
+    0% {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(-2vh)
+    }
+}
+@keyframes koopa {
+    0% {
+        background-position: -25vh 0
+    }
+    50% {
+        background-position: -37.5vh 0
+    }
+}
+@keyframes returning {
+    0% {
+        background-position: -61.6666vh 0
+    }
+    50% {
+        background-position: -49.5833vh 0
+    }
+}
+@keyframes goomba {
+    0% {
+        background-position: 0 0
+    }
+    50% {
+        background-position: -8.75vh 0
+    }
+}
+@keyframes box-coin {
+    25% {
+        background-position: 0 0
+    }
+    50% {
+        background-position: -3.333335vh 0
+    }
+    75% {
+        background-position: -6.66667vh 0
+    }
+    100% {
+        background-position: -10vh 0
+    }
+}
+@keyframes box-coin2 {
+    0% {
+        bottom: 6.66667vh
+    }
+    75% {
+        bottom: 24vh
+    }
+    100% {
+        bottom: 14vh
+    }
+}
+@keyframes box-coin3 {
+    0% {
+        bottom: 26vh
+    }
+    75% {
+        bottom: 32vh
+    }
+    100% {
+        bottom: 32vh
+    }
+}
+@keyframes walk-small {
+    0% {
+        background-position: -26.66668vh 0
+    }
+    33.333% {
+        background-position: -20.00001vh 0
+    }
+    66.666% {
+        background-position: -33.33335vh 0
+    }
+    100% {
+        background-position: -26.66668vh 0
+    }
+}
+@keyframes walk-big {
+    0% {
+        background-position: -38.75vh 0
+    }
+    33.333% {
+        background-position: -29.5833vh 0
+    }
+    66.666% {
+        background-position: -48.75vh 0
+    }
+    100% {
+        background-position: -38.75vh 0
+    }
+}
+.world-1-1 {
+    width: 1406.66737vh
+}
+.world.in-viewport {
+    background-color: red
+}
+.ui .coin-ui {
+    width: 2.0833343749999997vh;
+    height: 3.333335vh;
+    margin-bottom: 0.3333335vh;
+    background: url("../vectors/coin-ui.svg") left center no-repeat;
+    background-size: auto 100%
+}
+.ui .controls {
+    padding: 6.66667vh;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0vh;
+    width: 100%;
+    left: 0vh;
+    display: none;
+    -ms-display: none
+}
+.ui .controls.active {
+    display: flex;
+    -ms-display: flex;
+    --m-box-start:flex-start;
+    --m-box-end:flex-end
+}
+.ui .controls.has-gamepad {
+    display: none !important;
+    -ms-display: none !important
+}
+.ui .controls .r-controls {
+    width: 36.666685vh;
+    height: 36.666685vh;
+    display: flex;
+    -ms-display: flex;
+    --m-box-start:flex-start;
+    --m-box-end:flex-end;
+    flex-wrap: wrap;
+    gap: 3.333335vh
+}
+.ui .controls .r-controls div {
+    width: 16.666674999999998vh;
+    height: 16.666674999999998vh;
+    border-radius: 9999px;
+    display: flex;
+    -ms-display: flex;
+    --m-box-start:flex-start;
+    --m-box-end:flex-end;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,.1)
+}
+.ui .controls .r-controls div::before {
+    --m-bg-alpha: 1;
+    background-color: rgba(var(--m-color-white),var(--m-bg-alpha));
+    width: 13.33334vh;
+    height: 13.33334vh;
+    border-radius: 9999px;
+    content: "";
+    background: rgba(255,255,255,.1)
+}
+.ui .controls .r-controls div.touching {
+    background: rgba(255,255,255,0.2)
+}
+.ui .controls .r-controls div.touching::before {
+    background: rgba(255,255,255,.15)
+}
+.ui .controls .l-controls {
+    width: 50.000025vh;
+    height: 46.66669vh;
+    display: flex;
+    -ms-display: flex;
+    --m-box-start:flex-start;
+    --m-box-end:flex-end;
+    flex-wrap: wrap;
+    gap: 0vh;
+    align-items: center;
+    justify-content: center
+}
+.ui .controls .l-controls .ctrl {
+    --m-bg-alpha: 1;
+    background-color: rgba(var(--m-color-white),var(--m-bg-alpha));
+    width: 16.666674999999998vh;
+    height: 13.33334vh;
+    border-radius: 2.5vh;
+    display: flex;
+    -ms-display: flex;
+    --m-box-start:flex-start;
+    --m-box-end:flex-end;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,.1)
+}
+.ui .controls .l-controls .ctrl::before {
+    --m-bg-alpha: 1;
+    background-color: rgba(var(--m-color-white),var(--m-bg-alpha));
+    width: 13.33334vh;
+    height: 10.000005vh;
+    border-radius: 1.5vh;
+    content: "";
+    background: rgba(255,255,255,.1)
+}
+.ui .controls .l-controls .ctrl.touching {
+    background: rgba(255,255,255,0.2)
+}
+.ui .controls .l-controls .ctrl.touching::before {
+    background: rgba(255,255,255,.15)
+}
+.ui .controls .l-controls .ud {
+    display: flex;
+    -ms-display: flex;
+    --m-box-start:flex-start;
+    --m-box-end:flex-end;
+    flex-direction: column;
+    gap: 13.33334vh
+}
+.ui .controls .l-controls .ud .ctrl {
+    width: 13.33334vh;
+    height: 16.666674999999998vh
+}
+.ui .controls .l-controls .ud .ctrl::before {
+    height: 13.33334vh;
+    width: 10.000005vh
+}
+@keyframes enableHWAC {
+    from {
+        transform: translateX(-100%)
+    }
+    to {
+        transform: translateX(0)
+    }
+}
+.enableHWAC {
+    transform: translateX(100px);
+    transition: transform 0.3s ease;
+    animation: enableHWAC 0.3s ease
+}
+.p-fixed {
+    position: fixed
+}
+.h-full {
+    height: 100%
+}
+.w-1 {
+    width: 6.66667vh
+}
+.right-full {
+    right: 100%
+}
+.p-absolute {
+    position: absolute
+}
+.left-189 {
+    left: 1260.00063vh
+}
+.bottom-2 {
+    bottom: 13.33334vh
+}
+.h-8 {
+    height: 53.33336vh
+}
+.w-1\.15 {
+    width: 7.6666704999999995vh
+}
+.left-152 {
+    left: 1013.33384vh
+}
+.h-4 {
+    height: 26.66668vh
+}
+.left-155 {
+    left: 1033.33385vh
+}
+.-ml-0\.15 {
+    margin-left: -1.0000004999999998vh
+}
+.left-140 {
+    left: 933.3338vh
+}
+.left-48 {
+    left: 320.00016vh
+}
+.left-96 {
+    left: 640.00032vh
+}
+.left-144 {
+    left: 960.0004799999999vh
+}
+.left-192 {
+    left: 1280.00064vh
+}
+.left-16 {
+    left: 106.66672vh
+}
+.left-64 {
+    left: 426.66688vh
+}
+.left-112 {
+    left: 746.66704vh
+}
+.left-160 {
+    left: 1066.6671999999999vh
+}
+.left-8\.5 {
+    left: 56.666695vh
+}
+.left-19\.5 {
+    left: 130.000065vh
+}
+.left-56\.5 {
+    left: 376.666855vh
+}
+.left-67\.5 {
+    left: 450.000225vh
+}
+.left-104\.5 {
+    left: 696.667015vh
+}
+.left-115\.5 {
+    left: 770.0003849999999vh
+}
+.left-152\.5 {
+    left: 1016.6671749999999vh
+}
+.left-201\.5 {
+    left: 1343.334005vh
+}
+.left-37\.5 {
+    left: 250.000125vh
+}
+.left-84\.5 {
+    left: 563.333615vh
+}
+.left-27\.5 {
+    left: 183.333425vh
+}
+.left-75\.5 {
+    left: 503.33358499999997vh
+}
+.left-123\.5 {
+    left: 823.333745vh
+}
+.left-22\.5 {
+    left: 150.000075vh
+}
+.left-71\.5 {
+    left: 476.666905vh
+}
+.left-119\.5 {
+    left: 796.667065vh
+}
+.left-157\.5 {
+    left: 1050.000525vh
+}
+.left-167\.5 {
+    left: 1116.667225vh
+}
+.left-41\.5 {
+    left: 276.666805vh
+}
+.left-89\.5 {
+    left: 596.666965vh
+}
+.left-137\.5 {
+    left: 916.6671249999999vh
+}
+.left-11\.5 {
+    left: 76.666705vh
+}
+.left-59\.5 {
+    left: 396.666865vh
+}
+.left-107\.5 {
+    left: 716.667025vh
+}
+.left-20 {
+    left: 133.33339999999998vh
+}
+.left-22 {
+    left: 146.66674vh
+}
+.left-24 {
+    left: 160.00008vh
+}
+.left-77 {
+    left: 513.33359vh
+}
+.left-79 {
+    left: 526.66693vh
+}
+.left-80 {
+    left: 533.3335999999999vh
+}
+.left-81 {
+    left: 540.00027vh
+}
+.left-82 {
+    left: 546.66694vh
+}
+.left-83 {
+    left: 553.33361vh
+}
+.left-84 {
+    left: 560.00028vh
+}
+.left-85 {
+    left: 566.66695vh
+}
+.left-86 {
+    left: 573.33362vh
+}
+.left-87 {
+    left: 580.00029vh
+}
+.left-91 {
+    left: 606.66697vh
+}
+.left-92 {
+    left: 613.33364vh
+}
+.left-93 {
+    left: 620.00031vh
+}
+.left-94 {
+    left: 626.66698vh
+}
+.left-100 {
+    left: 666.667vh
+}
+.left-101 {
+    left: 673.33367vh
+}
+.left-118 {
+    left: 786.66706vh
+}
+.left-121 {
+    left: 806.66707vh
+}
+.z-3 {
+    z-index: 3
+}
+.left-122 {
+    left: 813.33374vh
+}
+.left-123 {
+    left: 820.00041vh
+}
+.z-1 {
+    z-index: 1
+}
+.left-128 {
+    left: 853.33376vh
+}
+.left-131 {
+    left: 873.33377vh
+}
+.left-129 {
+    left: 860.0004299999999vh
+}
+.left-130 {
+    left: 866.6671vh
+}
+.left-168 {
+    left: 1120.00056vh
+}
+.left-169 {
+    left: 1126.66723vh
+}
+.left-171 {
+    left: 1140.00057vh
+}
+.left-21 {
+    left: 140.00007vh
+}
+.left-23 {
+    left: 153.33341vh
+}
+.left-78 {
+    left: 520.00026vh
+}
+.left-106 {
+    left: 706.66702vh
+}
+.left-109 {
+    left: 726.66703vh
+}
+.left-170 {
+    left: 1133.3339vh
+}
+.left-134 {
+    left: 893.3337799999999vh
+}
+.left-135 {
+    left: 900.00045vh
+}
+.left-136 {
+    left: 906.66712vh
+}
+.left-137 {
+    left: 913.33379vh
+}
+.bottom-3 {
+    bottom: 20.00001vh
+}
+.bottom-4 {
+    bottom: 26.66668vh
+}
+.bottom-5 {
+    bottom: 33.333349999999996vh
+}
+.left-141 {
+    left: 940.00047vh
+}
+.left-142 {
+    left: 946.66714vh
+}
+.left-143 {
+    left: 953.33381vh
+}
+.left-148 {
+    left: 986.66716vh
+}
+.left-149 {
+    left: 993.33383vh
+}
+.left-150 {
+    left: 1000.0005vh
+}
+.left-151 {
+    left: 1006.6671699999999vh
+}
+.left-156 {
+    left: 1040.00052vh
+}
+.left-157 {
+    left: 1046.66719vh
+}
+.left-158 {
+    left: 1053.33386vh
+}
+.left-181 {
+    left: 1206.66727vh
+}
+.left-182 {
+    left: 1213.33394vh
+}
+.left-183 {
+    left: 1220.00061vh
+}
+.left-184 {
+    left: 1226.66728vh
+}
+.left-185 {
+    left: 1233.33395vh
+}
+.left-186 {
+    left: 1240.00062vh
+}
+.left-187 {
+    left: 1246.6672899999999vh
+}
+.left-188 {
+    left: 1253.33396vh
+}
+.bottom-6 {
+    bottom: 40.00002vh
+}
+.bottom-7 {
+    bottom: 46.66669vh
+}
+.bottom-8 {
+    bottom: 53.33336vh
+}
+.bottom-9 {
+    bottom: 60.000029999999995vh
+}
+.left-199 {
+    left: 1326.66733vh
+}
+.left-28 {
+    left: 186.66676vh
+}
+.left-38 {
+    left: 253.33346vh
+}
+.left-46 {
+    left: 306.66682vh
+}
+.left-57 {
+    left: 380.00019vh
+}
+.left-163 {
+    left: 1086.66721vh
+}
+.left-179 {
+    left: 1193.33393vh
+}
+.w-2 {
+    width: 13.33334vh
+}
+.left-69 {
+    left: 460.00023vh
+}
+.w-3 {
+    width: 20.00001vh
+}
+.left-153 {
+    left: 1020.00051vh
+}
+.left-199\.5 {
+    left: 1330.000665vh
+}
+.bottom-12 {
+    bottom: 80.00004vh
+}
+.left-198\.5 {
+    left: 1323.333995vh
+}
+.bottom-11 {
+    bottom: 73.33337vh
+}
+.left-203 {
+    left: 1353.33401vh
+}
+.left-26 {
+    left: 173.33342vh
+}
+.left-25 {
+    left: 166.66675vh
+}
+.left-42 {
+    left: 280.00014vh
+}
+.left-55 {
+    left: 366.66685vh
+}
+.left-56\.2 {
+    left: 374.666854vh
+}
+.left-86\.5 {
+    left: 576.666955vh
+}
+.left-101\.5 {
+    left: 676.667005vh
+}
+.left-117 {
+    left: 780.00039vh
+}
+.left-118\.5 {
+    left: 790.000395vh
+}
+.left-129\.5 {
+    left: 863.333765vh
+}
+.left-132 {
+    left: 880.00044vh
+}
+.left-133\.5 {
+    left: 890.000445vh
+}
+.left-176 {
+    left: 1173.33392vh
+}
+.left-177\.5 {
+    left: 1183.333925vh
+}
+.left-110 {
+    left: 733.3337vh
+}
+.top-0 {
+    top: 0vh
+}
+.left-0 {
+    left: 0vh
+}
+.h-1 {
+    height: 6.66667vh
+}
+.-z-1 {
+    z-index: -1
+}
+.w-full {
+    width: 100%
+}
+.z-99999 {
+    z-index: 99999
+}
+.right-0 {
+    right: 0vh
+}
+.text-\(3vh\) {
+    font-size: 3vh
+}
+.text-white {
+    --m-text-alpha: 1;
+    color: rgba(var(--m-color-white),var(--m-text-alpha))
+}
+.d-flex {
+    display: flex;
+    -ms-display: flex;
+    --m-box-start:flex-start;
+    --m-box-end:flex-end
+}
+.j-content-evenly {
+    justify-content: space-evenly
+}
+.a-items-center {
+    align-items: center
+}
+.pa-0\.5 {
+    padding: 3.333335vh
+}
+.gap-0\.1 {
+    gap: 0.666667vh
+}
+.pl-0\.05 {
+    padding-left: 0.3333335vh
+}
+.text-center {
+    text-align: center
+}
+.text-right {
+    text-align: right
+}
